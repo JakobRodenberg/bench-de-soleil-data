@@ -1,0 +1,3 @@
+# Horizon shards are binary: never let git normalise line endings in them, or
+# every 0x0D byte becomes 0x0D0A and the profiles decode to nonsense.
+*.bin binary

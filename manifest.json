@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "generated_at": "2026-08-18T08:09:10+00:00",
+  "shard_zoom": 12,
+  "horizon": {
+    "buckets": 360,
+    "levels": 256,
+    "full_scale_rad": 1.5707963267948966,
+    "encoding": "uint8, value = round(rad * 255 / (pi/2))"
+  },
+  "variants": [
+    "leaf100"
+  ],
+  "shards": 10,
+  "detail_min_zoom": 13,
+  "building_only_regions": [],
+  "regions": {
+    "cph": {
+      "benches": 6175,
+      "missing_horizon": 3,
+      "had_vegetation": true
+    }
+  },
+  "missing_horizon": 3,
+  "benches": 6175
+}
