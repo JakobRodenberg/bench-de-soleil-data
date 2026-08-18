@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T08:09:10+00:00",
+  "generated_at": "2026-08-18T10:33:47+00:00",
   "shard_zoom": 12,
   "horizon": {
     "buckets": 360,
@@ -11,16 +11,497 @@
   "variants": [
     "leaf100"
   ],
-  "shards": 10,
+  "shards": 1621,
   "detail_min_zoom": 13,
   "building_only_regions": [],
+  "weather_cells": 465,
   "regions": {
     "cph": {
-      "benches": 6175,
-      "missing_horizon": 3,
+      "benches": 6415,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "hoersholm": {
+      "benches": 70,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "odense": {
+      "benches": 1180,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "aarhus": {
+      "benches": 3114,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "bornholm": {
+      "benches": 703,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "aabenraa": {
+      "benches": 496,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "aalborg": {
+      "benches": 1788,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "aeroe": {
+      "benches": 272,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "albertslund": {
+      "benches": 59,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "alleroed": {
+      "benches": 53,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "assens": {
+      "benches": 221,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "ballerup": {
+      "benches": 720,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "billund": {
+      "benches": 341,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "broendby": {
+      "benches": 402,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "broenderslev": {
+      "benches": 163,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "dragoer": {
+      "benches": 73,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "egedal": {
+      "benches": 57,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "esbjerg": {
+      "benches": 1043,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "faaborg-midtfyn": {
+      "benches": 328,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "fanoe": {
+      "benches": 98,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "favrskov": {
+      "benches": 269,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "faxe": {
+      "benches": 134,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "fredensborg": {
+      "benches": 251,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "fredericia": {
+      "benches": 358,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "frederikshavn": {
+      "benches": 319,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "frederikssund": {
+      "benches": 629,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "furesoe": {
+      "benches": 353,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "gentofte": {
+      "benches": 258,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "gladsaxe": {
+      "benches": 169,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "glostrup": {
+      "benches": 196,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "greve": {
+      "benches": 27,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "gribskov": {
+      "benches": 254,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "guldborgsund": {
+      "benches": 455,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "haderslev": {
+      "benches": 359,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "halsnaes": {
+      "benches": 365,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "hedensted": {
+      "benches": 170,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "helsingoer": {
+      "benches": 238,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "herlev": {
+      "benches": 65,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "herning": {
+      "benches": 277,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "hilleroed": {
+      "benches": 342,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "hjoerring": {
+      "benches": 486,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "hoeje-taastrup": {
+      "benches": 243,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "holbaek": {
+      "benches": 257,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "holstebro": {
+      "benches": 370,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "horsens": {
+      "benches": 558,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "hvidovre": {
+      "benches": 221,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "ikast-brande": {
+      "benches": 221,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "ishoej": {
+      "benches": 66,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "jammerbugt": {
+      "benches": 584,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "kalundborg": {
+      "benches": 221,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "kerteminde": {
+      "benches": 202,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "koege": {
+      "benches": 93,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "kolding": {
+      "benches": 536,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "laesoe": {
+      "benches": 48,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "langeland": {
+      "benches": 214,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "lejre": {
+      "benches": 130,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "lemvig": {
+      "benches": 284,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "lolland": {
+      "benches": 275,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "lyngby-taarbaek": {
+      "benches": 385,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "mariagerfjord": {
+      "benches": 266,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "middelfart": {
+      "benches": 429,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "morsoe": {
+      "benches": 234,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "naestved": {
+      "benches": 340,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "norddjurs": {
+      "benches": 370,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "nordfyns": {
+      "benches": 275,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "nyborg": {
+      "benches": 112,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "odder": {
+      "benches": 146,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "odsherred": {
+      "benches": 296,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "randers": {
+      "benches": 428,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "rebild": {
+      "benches": 184,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "ringkoebing-skjern": {
+      "benches": 707,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "ringsted": {
+      "benches": 101,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "roedovre": {
+      "benches": 120,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "roskilde": {
+      "benches": 273,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "rudersdal": {
+      "benches": 261,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "samsoe": {
+      "benches": 147,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "silkeborg": {
+      "benches": 1029,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "skanderborg": {
+      "benches": 715,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "skive": {
+      "benches": 508,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "slagelse": {
+      "benches": 565,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "soenderborg": {
+      "benches": 878,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "solroed": {
+      "benches": 43,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "soroe": {
+      "benches": 166,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "stevns": {
+      "benches": 84,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "struer": {
+      "benches": 154,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "svendborg": {
+      "benches": 469,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "syddjurs": {
+      "benches": 676,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "taarnby": {
+      "benches": 217,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "thisted": {
+      "benches": 673,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "toender": {
+      "benches": 528,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "vallensbaek": {
+      "benches": 59,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "varde": {
+      "benches": 630,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "vejen": {
+      "benches": 339,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "vejle": {
+      "benches": 731,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "vesthimmerlands": {
+      "benches": 347,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "viborg": {
+      "benches": 707,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "vordingborg": {
+      "benches": 1038,
+      "missing_horizon": 0,
       "had_vegetation": true
     }
   },
-  "missing_horizon": 3,
-  "benches": 6175
+  "missing_horizon": 0,
+  "benches": 43723
 }
