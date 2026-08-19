@@ -1,3 +1,7 @@
-# Horizon shards are binary: never let git normalise line endings in them, or
-# every 0x0D byte becomes 0x0D0A and the profiles decode to nonsense.
+# Binary assets: git's auto-detection got these right, but a glyph or sprite
+# that happens to look "texty" would be line-ending normalised and silently
+# corrupted -- no labels, no icons, no error. Being explicit costs nothing.
 *.bin binary
+*.pbf binary
+*.png binary
+*.pmtiles binary
