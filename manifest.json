@@ -1,0 +1,897 @@
+{
+  "version": 1,
+  "generated_at": "2026-09-04T01:54:10+00:00",
+  "shard_zoom": 12,
+  "horizon": {
+    "buckets": 360,
+    "levels": 256,
+    "full_scale_rad": 1.5707963267948966,
+    "encoding": "uint8, value = round(rad * 255 / (pi/2))"
+  },
+  "variants": [
+    "leaf000",
+    "leaf100",
+    "leaf005",
+    "leaf015",
+    "leaf020",
+    "leaf025",
+    "leaf035",
+    "leaf040",
+    "leaf045",
+    "leaf055",
+    "leaf060",
+    "leaf065",
+    "leaf075",
+    "leaf080",
+    "leaf085",
+    "leaf095",
+    "leaf010",
+    "leaf030",
+    "leaf050",
+    "leaf070",
+    "leaf090"
+  ],
+  "shards": 1621,
+  "detail_min_zoom": 13,
+  "building_only_regions": [],
+  "variant_calendar": {
+    "01-01": "leaf000",
+    "01-02": "leaf000",
+    "01-03": "leaf000",
+    "01-04": "leaf000",
+    "01-05": "leaf000",
+    "01-06": "leaf000",
+    "01-07": "leaf000",
+    "01-08": "leaf000",
+    "01-09": "leaf000",
+    "01-10": "leaf000",
+    "01-11": "leaf000",
+    "01-12": "leaf000",
+    "01-13": "leaf000",
+    "01-14": "leaf000",
+    "01-15": "leaf000",
+    "01-16": "leaf000",
+    "01-17": "leaf000",
+    "01-18": "leaf000",
+    "01-19": "leaf000",
+    "01-20": "leaf000",
+    "01-21": "leaf000",
+    "01-22": "leaf000",
+    "01-23": "leaf000",
+    "01-24": "leaf000",
+    "01-25": "leaf000",
+    "01-26": "leaf000",
+    "01-27": "leaf000",
+    "01-28": "leaf000",
+    "01-29": "leaf000",
+    "01-30": "leaf000",
+    "01-31": "leaf000",
+    "02-01": "leaf000",
+    "02-02": "leaf000",
+    "02-03": "leaf000",
+    "02-04": "leaf000",
+    "02-05": "leaf000",
+    "02-06": "leaf000",
+    "02-07": "leaf000",
+    "02-08": "leaf000",
+    "02-09": "leaf000",
+    "02-10": "leaf000",
+    "02-11": "leaf000",
+    "02-12": "leaf000",
+    "02-13": "leaf000",
+    "02-14": "leaf000",
+    "02-15": "leaf000",
+    "02-16": "leaf000",
+    "02-17": "leaf000",
+    "02-18": "leaf000",
+    "02-19": "leaf000",
+    "02-20": "leaf000",
+    "02-21": "leaf000",
+    "02-22": "leaf000",
+    "02-23": "leaf000",
+    "02-24": "leaf000",
+    "02-25": "leaf000",
+    "02-26": "leaf000",
+    "02-27": "leaf000",
+    "02-28": "leaf000",
+    "02-29": "leaf000",
+    "03-01": "leaf000",
+    "03-02": "leaf000",
+    "03-03": "leaf000",
+    "03-04": "leaf000",
+    "03-05": "leaf000",
+    "03-06": "leaf000",
+    "03-07": "leaf000",
+    "03-08": "leaf000",
+    "03-09": "leaf000",
+    "03-10": "leaf000",
+    "03-11": "leaf000",
+    "03-12": "leaf000",
+    "03-13": "leaf000",
+    "03-14": "leaf000",
+    "03-15": "leaf000",
+    "03-16": "leaf000",
+    "03-17": "leaf000",
+    "03-18": "leaf000",
+    "03-19": "leaf000",
+    "03-20": "leaf000",
+    "03-21": "leaf000",
+    "03-22": "leaf000",
+    "03-23": "leaf000",
+    "03-24": "leaf000",
+    "03-25": "leaf000",
+    "03-26": "leaf000",
+    "03-27": "leaf000",
+    "03-28": "leaf000",
+    "03-29": "leaf000",
+    "03-30": "leaf000",
+    "03-31": "leaf000",
+    "04-01": "leaf000",
+    "04-02": "leaf000",
+    "04-03": "leaf000",
+    "04-04": "leaf000",
+    "04-05": "leaf000",
+    "04-06": "leaf000",
+    "04-07": "leaf000",
+    "04-08": "leaf000",
+    "04-09": "leaf000",
+    "04-10": "leaf000",
+    "04-11": "leaf000",
+    "04-12": "leaf000",
+    "04-13": "leaf000",
+    "04-14": "leaf000",
+    "04-15": "leaf000",
+    "04-16": "leaf005",
+    "04-17": "leaf005",
+    "04-18": "leaf010",
+    "04-19": "leaf015",
+    "04-20": "leaf015",
+    "04-21": "leaf020",
+    "04-22": "leaf025",
+    "04-23": "leaf025",
+    "04-24": "leaf030",
+    "04-25": "leaf035",
+    "04-26": "leaf035",
+    "04-27": "leaf040",
+    "04-28": "leaf045",
+    "04-29": "leaf045",
+    "04-30": "leaf050",
+    "05-01": "leaf055",
+    "05-02": "leaf055",
+    "05-03": "leaf060",
+    "05-04": "leaf065",
+    "05-05": "leaf065",
+    "05-06": "leaf070",
+    "05-07": "leaf075",
+    "05-08": "leaf075",
+    "05-09": "leaf080",
+    "05-10": "leaf085",
+    "05-11": "leaf085",
+    "05-12": "leaf090",
+    "05-13": "leaf095",
+    "05-14": "leaf095",
+    "05-15": "leaf100",
+    "05-16": "leaf100",
+    "05-17": "leaf100",
+    "05-18": "leaf100",
+    "05-19": "leaf100",
+    "05-20": "leaf100",
+    "05-21": "leaf100",
+    "05-22": "leaf100",
+    "05-23": "leaf100",
+    "05-24": "leaf100",
+    "05-25": "leaf100",
+    "05-26": "leaf100",
+    "05-27": "leaf100",
+    "05-28": "leaf100",
+    "05-29": "leaf100",
+    "05-30": "leaf100",
+    "05-31": "leaf100",
+    "06-01": "leaf100",
+    "06-02": "leaf100",
+    "06-03": "leaf100",
+    "06-04": "leaf100",
+    "06-05": "leaf100",
+    "06-06": "leaf100",
+    "06-07": "leaf100",
+    "06-08": "leaf100",
+    "06-09": "leaf100",
+    "06-10": "leaf100",
+    "06-11": "leaf100",
+    "06-12": "leaf100",
+    "06-13": "leaf100",
+    "06-14": "leaf100",
+    "06-15": "leaf100",
+    "06-16": "leaf100",
+    "06-17": "leaf100",
+    "06-18": "leaf100",
+    "06-19": "leaf100",
+    "06-20": "leaf100",
+    "06-21": "leaf100",
+    "06-22": "leaf100",
+    "06-23": "leaf100",
+    "06-24": "leaf100",
+    "06-25": "leaf100",
+    "06-26": "leaf100",
+    "06-27": "leaf100",
+    "06-28": "leaf100",
+    "06-29": "leaf100",
+    "06-30": "leaf100",
+    "07-01": "leaf100",
+    "07-02": "leaf100",
+    "07-03": "leaf100",
+    "07-04": "leaf100",
+    "07-05": "leaf100",
+    "07-06": "leaf100",
+    "07-07": "leaf100",
+    "07-08": "leaf100",
+    "07-09": "leaf100",
+    "07-10": "leaf100",
+    "07-11": "leaf100",
+    "07-12": "leaf100",
+    "07-13": "leaf100",
+    "07-14": "leaf100",
+    "07-15": "leaf100",
+    "07-16": "leaf100",
+    "07-17": "leaf100",
+    "07-18": "leaf100",
+    "07-19": "leaf100",
+    "07-20": "leaf100",
+    "07-21": "leaf100",
+    "07-22": "leaf100",
+    "07-23": "leaf100",
+    "07-24": "leaf100",
+    "07-25": "leaf100",
+    "07-26": "leaf100",
+    "07-27": "leaf100",
+    "07-28": "leaf100",
+    "07-29": "leaf100",
+    "07-30": "leaf100",
+    "07-31": "leaf100",
+    "08-01": "leaf100",
+    "08-02": "leaf100",
+    "08-03": "leaf100",
+    "08-04": "leaf100",
+    "08-05": "leaf100",
+    "08-06": "leaf100",
+    "08-07": "leaf100",
+    "08-08": "leaf100",
+    "08-09": "leaf100",
+    "08-10": "leaf100",
+    "08-11": "leaf100",
+    "08-12": "leaf100",
+    "08-13": "leaf100",
+    "08-14": "leaf100",
+    "08-15": "leaf100",
+    "08-16": "leaf100",
+    "08-17": "leaf100",
+    "08-18": "leaf100",
+    "08-19": "leaf100",
+    "08-20": "leaf100",
+    "08-21": "leaf100",
+    "08-22": "leaf100",
+    "08-23": "leaf100",
+    "08-24": "leaf100",
+    "08-25": "leaf100",
+    "08-26": "leaf100",
+    "08-27": "leaf100",
+    "08-28": "leaf100",
+    "08-29": "leaf100",
+    "08-30": "leaf100",
+    "08-31": "leaf100",
+    "09-01": "leaf100",
+    "09-02": "leaf100",
+    "09-03": "leaf100",
+    "09-04": "leaf100",
+    "09-05": "leaf100",
+    "09-06": "leaf100",
+    "09-07": "leaf100",
+    "09-08": "leaf100",
+    "09-09": "leaf100",
+    "09-10": "leaf100",
+    "09-11": "leaf100",
+    "09-12": "leaf100",
+    "09-13": "leaf100",
+    "09-14": "leaf100",
+    "09-15": "leaf100",
+    "09-16": "leaf100",
+    "09-17": "leaf100",
+    "09-18": "leaf100",
+    "09-19": "leaf100",
+    "09-20": "leaf100",
+    "09-21": "leaf100",
+    "09-22": "leaf100",
+    "09-23": "leaf100",
+    "09-24": "leaf100",
+    "09-25": "leaf100",
+    "09-26": "leaf100",
+    "09-27": "leaf100",
+    "09-28": "leaf100",
+    "09-29": "leaf100",
+    "09-30": "leaf100",
+    "10-01": "leaf100",
+    "10-02": "leaf100",
+    "10-03": "leaf095",
+    "10-04": "leaf095",
+    "10-05": "leaf090",
+    "10-06": "leaf090",
+    "10-07": "leaf085",
+    "10-08": "leaf085",
+    "10-09": "leaf080",
+    "10-10": "leaf080",
+    "10-11": "leaf080",
+    "10-12": "leaf075",
+    "10-13": "leaf075",
+    "10-14": "leaf070",
+    "10-15": "leaf070",
+    "10-16": "leaf065",
+    "10-17": "leaf065",
+    "10-18": "leaf060",
+    "10-19": "leaf060",
+    "10-20": "leaf060",
+    "10-21": "leaf055",
+    "10-22": "leaf055",
+    "10-23": "leaf050",
+    "10-24": "leaf050",
+    "10-25": "leaf045",
+    "10-26": "leaf045",
+    "10-27": "leaf040",
+    "10-28": "leaf040",
+    "10-29": "leaf040",
+    "10-30": "leaf035",
+    "10-31": "leaf035",
+    "11-01": "leaf030",
+    "11-02": "leaf030",
+    "11-03": "leaf025",
+    "11-04": "leaf025",
+    "11-05": "leaf020",
+    "11-06": "leaf020",
+    "11-07": "leaf020",
+    "11-08": "leaf015",
+    "11-09": "leaf015",
+    "11-10": "leaf010",
+    "11-11": "leaf010",
+    "11-12": "leaf005",
+    "11-13": "leaf005",
+    "11-14": "leaf000",
+    "11-15": "leaf000",
+    "11-16": "leaf000",
+    "11-17": "leaf000",
+    "11-18": "leaf000",
+    "11-19": "leaf000",
+    "11-20": "leaf000",
+    "11-21": "leaf000",
+    "11-22": "leaf000",
+    "11-23": "leaf000",
+    "11-24": "leaf000",
+    "11-25": "leaf000",
+    "11-26": "leaf000",
+    "11-27": "leaf000",
+    "11-28": "leaf000",
+    "11-29": "leaf000",
+    "11-30": "leaf000",
+    "12-01": "leaf000",
+    "12-02": "leaf000",
+    "12-03": "leaf000",
+    "12-04": "leaf000",
+    "12-05": "leaf000",
+    "12-06": "leaf000",
+    "12-07": "leaf000",
+    "12-08": "leaf000",
+    "12-09": "leaf000",
+    "12-10": "leaf000",
+    "12-11": "leaf000",
+    "12-12": "leaf000",
+    "12-13": "leaf000",
+    "12-14": "leaf000",
+    "12-15": "leaf000",
+    "12-16": "leaf000",
+    "12-17": "leaf000",
+    "12-18": "leaf000",
+    "12-19": "leaf000",
+    "12-20": "leaf000",
+    "12-21": "leaf000",
+    "12-22": "leaf000",
+    "12-23": "leaf000",
+    "12-24": "leaf000",
+    "12-25": "leaf000",
+    "12-26": "leaf000",
+    "12-27": "leaf000",
+    "12-28": "leaf000",
+    "12-29": "leaf000",
+    "12-30": "leaf000",
+    "12-31": "leaf000"
+  },
+  "weather_cells": 465,
+  "pois": 33934,
+  "poi_shards": 1639,
+  "regions": {
+    "cph": {
+      "benches": 6432,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "hoersholm": {
+      "benches": 73,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "odense": {
+      "benches": 1185,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "aarhus": {
+      "benches": 3115,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "bornholm": {
+      "benches": 717,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "aabenraa": {
+      "benches": 525,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "aalborg": {
+      "benches": 1803,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "aeroe": {
+      "benches": 272,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "albertslund": {
+      "benches": 59,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "alleroed": {
+      "benches": 53,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "assens": {
+      "benches": 221,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "ballerup": {
+      "benches": 753,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "billund": {
+      "benches": 341,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "broendby": {
+      "benches": 403,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "broenderslev": {
+      "benches": 163,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "dragoer": {
+      "benches": 73,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "egedal": {
+      "benches": 57,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "esbjerg": {
+      "benches": 1055,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "faaborg-midtfyn": {
+      "benches": 351,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "fanoe": {
+      "benches": 98,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "favrskov": {
+      "benches": 269,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "faxe": {
+      "benches": 135,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "fredensborg": {
+      "benches": 256,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "fredericia": {
+      "benches": 373,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "frederikshavn": {
+      "benches": 344,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "frederikssund": {
+      "benches": 628,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "furesoe": {
+      "benches": 353,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "gentofte": {
+      "benches": 258,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "gladsaxe": {
+      "benches": 169,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "glostrup": {
+      "benches": 196,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "greve": {
+      "benches": 27,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "gribskov": {
+      "benches": 254,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "guldborgsund": {
+      "benches": 465,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "haderslev": {
+      "benches": 371,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "halsnaes": {
+      "benches": 365,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "hedensted": {
+      "benches": 171,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "helsingoer": {
+      "benches": 252,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "herlev": {
+      "benches": 65,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "herning": {
+      "benches": 277,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "hilleroed": {
+      "benches": 342,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "hjoerring": {
+      "benches": 489,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "hoeje-taastrup": {
+      "benches": 243,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "holbaek": {
+      "benches": 257,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "holstebro": {
+      "benches": 387,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "horsens": {
+      "benches": 563,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "hvidovre": {
+      "benches": 227,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "ikast-brande": {
+      "benches": 221,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "ishoej": {
+      "benches": 66,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "jammerbugt": {
+      "benches": 584,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "kalundborg": {
+      "benches": 221,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "kerteminde": {
+      "benches": 202,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "koege": {
+      "benches": 100,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "kolding": {
+      "benches": 542,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "laesoe": {
+      "benches": 48,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "langeland": {
+      "benches": 214,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "lejre": {
+      "benches": 144,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "lemvig": {
+      "benches": 286,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "lolland": {
+      "benches": 275,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "lyngby-taarbaek": {
+      "benches": 391,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "mariagerfjord": {
+      "benches": 266,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "middelfart": {
+      "benches": 435,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "morsoe": {
+      "benches": 234,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "naestved": {
+      "benches": 342,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "norddjurs": {
+      "benches": 370,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "nordfyns": {
+      "benches": 275,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "nyborg": {
+      "benches": 112,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "odder": {
+      "benches": 151,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "odsherred": {
+      "benches": 303,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "randers": {
+      "benches": 428,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "rebild": {
+      "benches": 191,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "ringkoebing-skjern": {
+      "benches": 711,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "ringsted": {
+      "benches": 101,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "roedovre": {
+      "benches": 120,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "roskilde": {
+      "benches": 284,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "rudersdal": {
+      "benches": 261,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "samsoe": {
+      "benches": 149,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "silkeborg": {
+      "benches": 1034,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "skanderborg": {
+      "benches": 716,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "skive": {
+      "benches": 510,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "slagelse": {
+      "benches": 571,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "soenderborg": {
+      "benches": 880,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "solroed": {
+      "benches": 43,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "soroe": {
+      "benches": 166,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "stevns": {
+      "benches": 84,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "struer": {
+      "benches": 154,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "svendborg": {
+      "benches": 469,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "syddjurs": {
+      "benches": 678,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "taarnby": {
+      "benches": 217,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "thisted": {
+      "benches": 673,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "toender": {
+      "benches": 533,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "vallensbaek": {
+      "benches": 59,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "varde": {
+      "benches": 630,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "vejen": {
+      "benches": 339,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "vejle": {
+      "benches": 740,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "vesthimmerlands": {
+      "benches": 347,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "viborg": {
+      "benches": 717,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    },
+    "vordingborg": {
+      "benches": 1039,
+      "missing_horizon": 0,
+      "had_vegetation": true
+    }
+  },
+  "missing_horizon": 0,
+  "benches": 44111
+}
